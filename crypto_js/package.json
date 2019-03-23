@@ -1,0 +1,17 @@
+{
+  "name": "crypto_js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "crypto.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "crypto-js": "^3.1.9-1"
+  },
+  "dependencies": {
+    "bootstrap": "^4.3.1"
+  }
+}
