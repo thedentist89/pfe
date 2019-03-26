@@ -13,3 +13,9 @@ button.addEventListener("click", function() {
     output.innerHTML = hash;
   }
 });
+
+const response = fetch("https://quota.glitch.me/random")
+  .then(res => console.log(res))
+  .then(data => data.json());
+
+console.log(response);
